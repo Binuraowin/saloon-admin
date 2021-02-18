@@ -5,14 +5,15 @@ export const EmployeeList = props => (
     <List {...props}>
 
         <Datagrid rowClick="edit">
-            <TextField source="id" />
-            <TextField source="name" />
-            <TextField source="service" />
-            {/*<EmailField source="email" />*/}
-            {/*<TextField source="address.street" />*/}
-            {/*<TextField source="phone" />*/}
-            {/*<TextField source="website" />*/}
-            {/*<TextField source="company.name" />*/}
+            <TextField source='name' />
+            <TextField source='service' />
+            <TextField source='id' />
+            <TextField source='jobRole' />
+            <TextField source='workingHours' />
+            <TextField source='workedHours' />
+            <TextField source='sallery' />
+            {/*<TextField source='password' />*/}
+
         </Datagrid>
     </List>
 );
