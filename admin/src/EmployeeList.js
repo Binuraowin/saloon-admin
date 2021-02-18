@@ -5,7 +5,7 @@ export const EmployeeList = props => (
     <List {...props}>
 
         <Datagrid rowClick="edit">
-            {/*<TextField source="_id" />*/}
+            <TextField source="id" />
             <TextField source="name" />
             <TextField source="service" />
             {/*<EmailField source="email" />*/}
