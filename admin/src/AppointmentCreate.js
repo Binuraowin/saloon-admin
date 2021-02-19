@@ -1,5 +1,5 @@
 import React from 'react'
-import {Create, SimpleForm, TextInput,DateInput,NumberInput} from 'react-admin'
+import {Create, SimpleForm, TextInput,DateInput} from 'react-admin'
 
 const AppointmentCreate = (props) => {
     return (
@@ -9,7 +9,6 @@ const AppointmentCreate = (props) => {
                 <DateInput source='date' />
                 <TextInput source='time' />
                 <TextInput source='service' />
-                <NumberInput source='id' />
                 <TextInput source='consumer' />
                 <TextInput source='email' />
                 <TextInput source='phone' />
