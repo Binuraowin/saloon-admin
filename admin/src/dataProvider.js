@@ -1,8 +1,8 @@
-import { httpClient } from 'react-admin';
+import { fetchUtils } from 'react-admin';
 import { stringify } from 'query-string';
 
-const apiUrl = 'http://localhost:3000/employee';
-
+const apiUrl = 'http://localhost:3000';
+const httpClient = fetchUtils;
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {

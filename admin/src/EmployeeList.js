@@ -1,5 +1,5 @@
 import * as React from "react";
-import { List, Datagrid, TextField } from 'react-admin';
+import { List, Datagrid, TextField,EditButton, DeleteButton} from 'react-admin';
 
 export const EmployeeList = props => (
     <List {...props}>
@@ -13,7 +13,8 @@ export const EmployeeList = props => (
             <TextField source='workedHours' />
             <TextField source='sallery' />
             {/*<TextField source='password' />*/}
-
+            <EditButton />
+            <DeleteButton/>
         </Datagrid>
     </List>
 );

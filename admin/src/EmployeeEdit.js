@@ -1,5 +1,5 @@
 import React from 'react'
-import {Edit, SimpleForm, TextInput, NumberInput} from 'react-admin'
+import {Edit, SimpleForm, TextInput, NumberInput,EditButton} from 'react-admin'
 
 const EmployeeEdit = (props) => {
     return (
@@ -7,7 +7,7 @@ const EmployeeEdit = (props) => {
             <SimpleForm>
                 <TextInput source='name' />
                 <TextInput source='service' />
-                <NumberInput source='id' />
+                <TextInput disabled  source='id' />
                 <TextInput source='jobRole' />
                 <TextInput source='workingHours' />
                 <NumberInput source='workedHours' />
