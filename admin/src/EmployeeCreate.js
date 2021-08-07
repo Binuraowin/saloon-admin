@@ -7,12 +7,12 @@ const EmployeeCreate = (props) => {
             <SimpleForm>
                 <TextInput source='name' />
                 <TextInput source='service' />
-                <NumberInput source='id' />
+                {/*<NumberInput source='id' />*/}
                 <TextInput source='jobRole' />
                 <TextInput source='workingHours' />
                 <NumberInput source='workedHours' />
                 <TextInput source='sallery' />
-                <TextInput source='password' />
+                {/*<TextInput source='password' />*/}
             </SimpleForm>
 
         </Create>

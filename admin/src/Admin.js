@@ -10,7 +10,7 @@ import AppointmentCreate from "./AppointmentCreate";
 import AppointmentEdit from "./AppointmentEdit";
 
 
-const dataProvider = simpleRestClient('http://localhost:3000');
+const dataProvider = simpleRestClient('http://localhost:3001');
 const AdminList = () => (
 
        <Admin dataProvider={dataProvider} dashboard={Dashboard}>

@@ -3,7 +3,7 @@ import {Edit, SimpleForm, TextInput, DateInput,NumberInput} from 'react-admin'
 
 const AppointmentEdit = (props) => {
     return (
-        <Edit title='Edit Post'{...props}>
+        <Edit title='Edit Appointment'{...props}>
             <SimpleForm>
                 <TextInput source='userName'/>
                 <DateInput source='date'/>
@@ -12,6 +12,7 @@ const AppointmentEdit = (props) => {
                 <TextInput source='consumer'/>
                 <TextInput source='email'/>
                 <TextInput source='phone'/>
+                <TextInput disabled  source='id' />
             </SimpleForm>
 
         </Edit>

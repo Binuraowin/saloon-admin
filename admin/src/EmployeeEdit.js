@@ -12,7 +12,7 @@ const EmployeeEdit = (props) => {
                 <TextInput source='workingHours' />
                 <NumberInput source='workedHours' />
                 <TextInput source='sallery' />
-                <TextInput source='password' />
+                {/*<TextInput source='password' />*/}
 
             </SimpleForm>
 
