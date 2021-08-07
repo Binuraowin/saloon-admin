@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6087dd6e-6acb-4e60-b1e4-47369acab772" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/Admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/AppointmentEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/AppointmentEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/EmployeeCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/EmployeeCreate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/EmployeeEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/EmployeeEdit.js" afterDir="false" />
-    </list>
+    <list default="true" id="6087dd6e-6acb-4e60-b1e4-47369acab772" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613623695775</updated>
       <workItem from="1613623696998" duration="46000" />
-      <workItem from="1628314032434" duration="7320000" />
+      <workItem from="1628314032434" duration="7326000" />
     </task>
     <servers />
   </component>
